@@ -16,6 +16,7 @@ REMOTE_COMMIT="$(git rev-parse origin/main)"
 # Yeni commit varsa yalnızca güvenli, ileri yönlü güncellemeyi uygula.
 if [ "$LOCAL_COMMIT" != "$REMOTE_COMMIT" ]; then
     git merge --ff-only origin/main
+    exec /bin/bash "$REPOSITORY_PATH/scripts/deploy-if-changed.sh"
 fi
 
 # Çekilmiş fakat henüz canlıya kopyalanmamış commitleri de takip et.
