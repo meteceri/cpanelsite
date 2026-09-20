@@ -44,7 +44,7 @@ require __DIR__ . '/includes/header.php';
         <div class="contact-info">
             <span class="eyebrow">Bize ulaşın</span><h2>Size nasıl yardımcı olabiliriz?</h2>
             <p>Bu form şu anda test modundadır. Bilgiler doğrulanır ancak kaydedilmez ve e-posta olarak gönderilmez.</p>
-            <div class="contact-item"><span>@</span><div><small>E-posta</small><strong>merhaba@example.com</strong></div></div>
+            <div class="contact-item"><span>@</span><div><small>E-posta</small><strong>info@meteceri.com.tr</strong></div></div>
             <div class="contact-item"><span>⌖</span><div><small>Konum</small><strong>İstanbul, Türkiye</strong></div></div>
         </div>
         <form class="contact-form" method="post" action="iletisim.php" novalidate>
