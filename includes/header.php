@@ -19,9 +19,9 @@ $currentPage = $currentPage ?? '';
 <body>
 <header class="site-header">
     <div class="container nav-wrap">
-        <a class="brand" href="index.php" aria-label="CPanelSite ana sayfa">
-            <span class="brand-mark">C</span>
-            <span>CPanel<span>Site</span></span>
+        <a class="brand" href="index.php" aria-label="Kaynarca Web ana sayfa">
+            <span class="brand-mark">K</span>
+            <span>Kaynarca <span>Web</span></span>
         </a>
         <button class="menu-button" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="main-nav">
             <span></span><span></span><span></span>

@@ -2,7 +2,7 @@
     <footer class="site-footer">
         <div class="container footer-grid">
             <div>
-                <a class="brand footer-brand" href="index.php"><span class="brand-mark">C</span><span>CPanel<span>Site</span></span></a>
+                <a class="brand footer-brand" href="index.php"><span class="brand-mark">K</span><span>Kaynarca <span>Web</span></span></a>
                 <p>PHP, HTML5 ve modern CSS ile hazırlanmış örnek proje.</p>
             </div>
             <div class="footer-links">
