@@ -1,0 +1,15 @@
+Options -MultiViews
+RewriteEngine On
+
+# index.php isteklerini ana adrese yönlendir.
+RewriteCond %{THE_REQUEST} \s/+index\.php(?:[\s?]|$) [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Diğer doğrudan .php isteklerini uzantısız adrese yönlendir.
+RewriteCond %{THE_REQUEST} \s/+([a-z0-9_-]+)\.php(?:[\s?]|$) [NC]
+RewriteRule ^([a-z0-9_-]+)\.php$ /$1 [R=301,L,NE]
+
+# Uzantısız sayfa adreslerini ilgili PHP dosyalarına yönlendir.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(hakkimizda|iletisim)/?$ $1.php [L,QSA]

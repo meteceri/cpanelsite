@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=$HOME/public_html/
     - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp hakkimizda.php $DEPLOYPATH
     - /bin/cp iletisim.php $DEPLOYPATH

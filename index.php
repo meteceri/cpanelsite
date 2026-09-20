@@ -10,8 +10,8 @@ require __DIR__ . '/includes/header.php';
             <h1>Fikirlerinizi web'de <span>hayata geçirin.</span></h1>
             <p>Hızlı, sade ve tüm ekranlara uyum sağlayan örnek web projesi. GitHub üzerinden yönetilir, cPanel üzerinde kolayca yayınlanır.</p>
             <div class="hero-actions">
-                <a class="button primary" href="iletisim.php">Bize Ulaşın</a>
-                <a class="button secondary" href="hakkimizda.php">Daha Fazla Bilgi</a>
+                <a class="button primary" href="/iletisim">Bize Ulaşın</a>
+                <a class="button secondary" href="/hakkimizda">Daha Fazla Bilgi</a>
             </div>
             <div class="hero-stats">
                 <div><strong>100%</strong><span>Mobil uyumlu</span></div>

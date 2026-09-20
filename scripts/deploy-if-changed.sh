@@ -28,6 +28,7 @@ fi
 
 # Sunucudaki uapi çalışmadığı için .cpanel.yml ile aynı dosyaları doğrudan yayınla.
 mkdir -p "$DEPLOY_PATH"
+cp .htaccess "$DEPLOY_PATH/"
 cp index.php "$DEPLOY_PATH/"
 cp hakkimizda.php "$DEPLOY_PATH/"
 cp iletisim.php "$DEPLOY_PATH/"

@@ -47,7 +47,7 @@ require __DIR__ . '/includes/header.php';
             <div class="contact-item"><span>@</span><div><small>E-posta</small><strong>mete@meteceri.com.tr</strong></div></div>
             <div class="contact-item"><span>⌖</span><div><small>Konum</small><strong>İstanbul, Türkiye</strong></div></div>
         </div>
-        <form class="contact-form" method="post" action="iletisim.php" novalidate>
+        <form class="contact-form" method="post" action="/iletisim" novalidate>
             <?php if ($success): ?><div class="alert success" role="status">Teşekkürler! Form başarıyla doğrulandı.</div><?php endif; ?>
             <?php if ($errors !== []): ?><div class="alert error" role="alert"><strong>Lütfen aşağıdakileri düzeltin:</strong><ul><?php foreach ($errors as $error): ?><li><?= htmlspecialchars($error, ENT_QUOTES, 'UTF-8') ?></li><?php endforeach; ?></ul></div><?php endif; ?>
             <div class="field trap" aria-hidden="true"><label for="website">Web sitesi</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>

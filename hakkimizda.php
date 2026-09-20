@@ -11,7 +11,7 @@ require __DIR__ . '/includes/header.php';
         <div>
             <span class="eyebrow">Hikâyemiz</span>
             <h2>Küçük bir fikirle başlayan güçlü bir altyapı</h2>
-            <p>CPanelSite; PHP geliştirme, GitHub sürüm kontrolü ve cPanel yayınlama süreçlerini birlikte denemek için oluşturuldu.</p>
+            <p>Kaynarca Web; PHP geliştirme, GitHub sürüm kontrolü ve cPanel yayınlama süreçlerini birlikte denemek için oluşturuldu.</p>
             <p>Temiz kod, erişilebilir arayüz ve her cihazda iyi çalışan bir deneyim projenin temelini oluşturuyor.</p>
         </div>
         <div class="values-card">
