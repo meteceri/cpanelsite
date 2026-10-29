@@ -29,12 +29,11 @@ fi
 
 # Sunucudaki uapi çalışmadığı için .cpanel.yml ile aynı dosyaları doğrudan yayınla.
 mkdir -p "$DEPLOY_PATH"
+rm -f "$DEPLOY_PATH/hakkimizda.php" "$DEPLOY_PATH/iletisim.php"
+rm -rf "$DEPLOY_PATH/assets" "$DEPLOY_PATH/includes"
 cp .htaccess "$DEPLOY_PATH/"
 cp index.php "$DEPLOY_PATH/"
-cp hakkimizda.php "$DEPLOY_PATH/"
-cp iletisim.php "$DEPLOY_PATH/"
-cp -R assets "$DEPLOY_PATH/"
-cp -R includes "$DEPLOY_PATH/"
+cp robots.txt "$DEPLOY_PATH/"
 
 printf '%s\n' "$REMOTE_COMMIT" > "$DEPLOYED_FILE"
 

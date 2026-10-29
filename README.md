@@ -1,15 +1,10 @@
-# CPanelSite
+# Kaynarca Web
 
-PHP 8+, HTML5 ve modern CSS ile hazırlanmış mobil uyumlu örnek kurumsal site.
+Geçici olarak boş beyaz sayfa gösteren ve arama motorlarının indekslemesini engelleyen PHP yayın yapılandırması.
 
-## Yerelde çalıştırma
+## Davranış
 
-```bash
-php -S localhost:8000
-```
-
-Ardından tarayıcıda `http://localhost:8000` adresini açın.
-
-## cPanel'e yükleme
-
-Dosyaları alan adınızın `public_html` klasörüne yükleyin. Sunucuda PHP 8.0 veya daha yeni bir sürüm seçili olmalıdır. Bu sürümde veritabanı gerekmez; iletişim formu yalnızca doğrulama amacıyla çalışır ve veri kaydetmez.
+- Tüm sayfa adresleri boş ana sayfayı gösterir.
+- `X-Robots-Tag` ve meta robots ile `noindex, nofollow, noarchive` uygulanır.
+- `robots.txt` tüm taramayı engeller.
+- cPanel Cron betiği değişiklikleri `/home/metecomtr/public_html` dizinine dağıtır.
